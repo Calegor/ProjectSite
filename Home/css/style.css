@@ -1,0 +1,80 @@
+body{
+	margin:0px;
+}
+
+.sec-noticia figure {
+	float: left;
+}
+
+.fig img{
+	border-radius: 20px;
+}
+
+.sec-topo{
+		width: 100%;
+		max-width:100%;
+		height: 630px; /* heght:100vh; - deixa a imagem na tela inteira */
+		background:url('../imagem/green-space.jpg');
+		background-size: 1600px;
+		background-position: center center;
+		background-attachment: fixed;
+}
+
+header{
+	background-color: #f3f3f3;
+	
+	
+}
+
+header nav{
+	padding: 1px 0px;
+
+
+}
+
+
+header nav ul{
+	display: -webkit-box;
+	padding-left: 300px;
+	padding-right: 500px;
+	
+}
+
+header nav ul li{
+	list-style-type: none;
+	padding: 10px 0px;
+}
+
+header nav ul li a{
+	margin:0px 10px;
+	text-decoration:none;
+	color: black;
+}	
+
+header nav ul li a:hover {
+	color: #21c13e;
+}
+
+header nav ul li a.icone {
+	padding-right: 100px;
+}
+
+img.main {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	padding-left: 450px;
+	padding-top: 100px;
+	
+}
+
+#not1 {
+	position: relative;
+	width: 200px;
+	height: 100px;
+	background: url('../imagem/not1.jpg');
+}
+
+#not1 .text1 {
+	position: absolute;
+	bottom: 0px;
